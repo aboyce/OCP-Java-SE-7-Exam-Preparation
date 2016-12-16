@@ -21,5 +21,7 @@ public class Assertions {
 		
 		// An assertion with a message
 		assert(x < y) : "X should always be less than Y";
+			// The second part can be used with anything that returns a value.
+			// Behaves very similar to a 'System.out.println()'.
 	}
 }
